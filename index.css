@@ -133,7 +133,7 @@ hr {
     transition: 0.3s;
     margin: 10px;
     width: 50%;
-    border-radius: 10%;
+    border-radius: 30px;
 
 
 
@@ -218,10 +218,11 @@ hr {
 }   
 
 @media screen and (max-width: 700px) {
-    .row {
+    .img, .about, .column, .contact, .footer, .title, .contactLinks {
       flex-direction: column;
     }
   }
+
   
   /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
   @media screen and (max-width: 400px) {
