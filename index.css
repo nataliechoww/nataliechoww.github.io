@@ -1,6 +1,9 @@
 html {
     scroll-behavior: smooth;
   }
+  * {
+    box-sizing: border-box;
+  }
 
 body {
     background-image: linear-gradient(to bottom right,rgba(169, 167, 246, 1), rgba(40, 43, 119, 1));
@@ -214,12 +217,12 @@ hr {
     color: white;
 }   
 
-@media screen and (max-width: 400px) {
-    .about, .column1, .column2, .contact, .footer, .title, .contactLinks, .contactBox, .whole, body {
+@media screen and (max-width: 800px) {
+    .about, .contact, .footer, .contactLinks, .whole, .column {
       flex-direction: column;
       width: 100%;
-      max-width: 100%;
     }
+
   }
 
  
