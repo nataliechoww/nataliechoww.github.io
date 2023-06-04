@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-image: linear-gradient(to bottom right,rgba(169, 167, 246, 1), rgba(40, 43, 119, 1));
+    font-family: 'Archivo';
+    margin: 0;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.nav {
+    overflow: hidden;
+  }
+  
+  .links {
+    float: right;
+    margin-top: 20px;
+    margin-right: 21px;
+
+}
+
+  /* Style the links inside the navigation bar */
+  .nav a {
+    float: left;    
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+
+
+}
+  
+/* Change the color of links on hover */
+.nav a:hover {
+color: black;
+}
+
+.nav a.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 40px;
+}
+
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-weight: 900px;
+}
+  
+.projects{
+  background-color:white;
+  border-radius: 30px;
+  margin: 50px 300px 50px 300px;
+}
+
+.projectDescriptions{
+  padding: 30px;
+}
+
+
